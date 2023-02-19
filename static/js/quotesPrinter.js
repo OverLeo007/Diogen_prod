@@ -26,7 +26,7 @@ function printNext() {
     const {text, elementId} = task;
     const element = document.getElementById(elementId);
     let index = 0;
-    const speed = 50; // скорость печати (миллисекунды)
+    const speed = 20; // скорость печати (миллисекунды)
 
     function type() {
         element.innerHTML = text.slice(0, index++);
