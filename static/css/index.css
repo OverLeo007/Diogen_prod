@@ -11,4 +11,10 @@ p {
   border-radius: 10px;
 }
 
+img{
+  width: 30%;
+}
 /*# sourceMappingURL=index.css.map */
+img.long{
+  width: 60%;
+}
