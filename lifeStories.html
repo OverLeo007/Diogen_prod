@@ -12,6 +12,9 @@
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
             crossorigin="anonymous"></script>
+    <script defer src="static/js/storiesPrinter.js"></script>
+
+
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -36,5 +39,20 @@
         </div>
     </div>
 </nav>
+<div class="container  mb-4  records text-white custom-container">
+    <div class="row">
+        <div class="col">
+            <h1 class="display-2 text-center">
+                Ваша история из жизни Диогена
+            </h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col bg-gradient border-info" id="quote-col">
+            <p class="fw-bold fst-italic p-3" id="story-text"></p>
+            <p class="p-3 text-info" id="story-exp"></p>
+        </div>
+    </div>
+</div>
 </body>
 </html>
